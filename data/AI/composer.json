@@ -1,0 +1,13 @@
+{
+    "require": {
+        "google-gemini-php/client": "^1.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/http-client": "^6.4",
+        "gemini-api-php/client": "^1.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

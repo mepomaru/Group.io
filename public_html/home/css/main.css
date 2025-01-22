@@ -1,0 +1,72 @@
+.form-container-inv {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding:20%;
+    margin-top:-45%;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="id"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #4496e296;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    /* background-color: #007bff; */
+    background-color: #7aa2e3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ログアウトボタンのスタイル */
+.logout-button {
+    position: absolute;
+    /* : 10px; */
+    right: 10px;
+    /* width: 80px;  横幅を25pxに設定 */
+    padding: 5px;
+    font-size: 12px;
+    /* background-color: #f44336; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* ボタン内のテキストを中央揃え */
+  }
+
+  
+.title,.passion,.role {
+    font-size: 1.17em;
+    font-weight: bold;
+  }
